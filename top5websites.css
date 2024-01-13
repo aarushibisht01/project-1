@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(151, 254, 220);
+}
+
+li{
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    font-weight: 1500;
+    font-size: 75px;
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+a:hover{
+    transform:scale(1.04);
+    font-size: larger;
+    transition: 0.4s ease-in-out;
+}
